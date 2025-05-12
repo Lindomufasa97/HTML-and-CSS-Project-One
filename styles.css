@@ -1,0 +1,43 @@
+body {
+    background-image: url('shea-rouda-Ete0zMKPWys-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    display: grid;
+    grid-template-rows: repeate(9, 3fr);
+    grid-template-columns: repeate(6, 2fr);
+    grid-gap: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item-1 {
+    grid-area: 1/1/5/2;
+    background-color: #ffffdd;
+    text-align: center;
+}
+.item-2 {
+    grid-area: 1/2/5/3;
+    background-color: #ffffdd;
+     text-align: center;
+}
+.item-3 {
+    grid-area: 5/1/9/2;
+    background-color: #ffffdd;
+     text-align: center;
+}
+div h4 {
+    background-color: #aaffaa;
+    font-size: small;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    background-color: #1717e9;
+    color: #ffffff;
+    padding: 4px 3px;
+    border-radius: 7px;
+}
+.price {
+    color: #9393fa;
+}
